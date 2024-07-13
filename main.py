@@ -1,6 +1,7 @@
 import streamlit as st
 from groq import Groq
 
+st.set_page_config(page_title = "Adi Boy")
 st.title(":red[ADI BOY]")
 st.text("I am Adi and i am dumb")
 st.divider()
