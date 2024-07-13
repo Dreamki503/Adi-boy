@@ -1,7 +1,7 @@
 import streamlit as st
 from groq import Groq
 
-st.title(":blue[ADI DUMB]")
+st.title(":rec[ADI BOY]")
 st.text("I am Adi and i am dumb")
 st.divider()
 
@@ -16,7 +16,7 @@ def draft_message(content ,role = "user"):
 message = [
     {
         "role" : "system",
-        "content" : "Your name is Adi and you are dumb and you are a grandmaster at chess"
+        "content" : "Your name is Adi. You are dumb but you talk smart. You are a grandmaster at chess. You like milfs"
     }
 ]
 
