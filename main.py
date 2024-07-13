@@ -1,7 +1,7 @@
 import streamlit as st
 from groq import Groq
 
-st.title(":rec[ADI BOY]")
+st.title(":red[ADI BOY]")
 st.text("I am Adi and i am dumb")
 st.divider()
 
