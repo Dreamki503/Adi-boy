@@ -7,7 +7,7 @@ st.title("Welcome to :red[Adi boy]")
 st.divider()
 
 # OpenAI initialize
-client = Groq(api_key = st.secrets[".streamlit/secrets.toml/api_key"])
+client = Groq(api_key = st.secrets["api_key"])
 
 if "model" not in st.session_state:
     st.session_state["model"] = "llama3-70b-8192"
